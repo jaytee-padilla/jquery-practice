@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>jQuery</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div>
+      <header>
+        <h1 class="notification is-primary container title heading1">
+          jQuery Practice
+        </h1>
+      </header>
+
+      <section class="section">
+        <div class="container">
+          <div class="content content-1">
+            <h1 class="title">Section</h1>
+
+            <h2 class="subtitle">
+              A simple container to divide your page into
+              <strong>sections</strong>, like the one you're currently reading
+            </h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              accumsan, metus ultrices eleifend gravida, nulla nunc varius
+              lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui.
+              Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
+              Curabitur accumsan turpis pharetra augue tincidunt blandit.
+              Quisque condimentum maximus mi, sit amet commodo arcu rutrum id.
+              Proin pretium urna vel cursus venenatis. Suspendisse potenti.
+              Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at
+              dignissim dui. Ut et neque nisl.
+            </p>
+          </div>
+
+          <div class="content content-2">
+            <h1 class="title">Section</h1>
+
+            <h2 class="subtitle">
+              A simple container to divide your page into
+              <strong>sections</strong>, like the one you're currently reading
+            </h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              accumsan, metus ultrices eleifend gravida, nulla nunc varius
+              lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui.
+              Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
+              Curabitur accumsan turpis pharetra augue tincidunt blandit.
+              Quisque condimentum maximus mi, sit amet commodo arcu rutrum id.
+              Proin pretium urna vel cursus venenatis. Suspendisse potenti.
+              Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at
+              dignissim dui. Ut et neque nisl.
+            </p>
+          </div>
+
+          <div class="content content-3">
+            <h1 class="title">Section</h1>
+
+            <h2 class="subtitle">
+              A simple container to divide your page into
+              <strong>sections</strong>, like the one you're currently reading
+            </h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+              accumsan, metus ultrices eleifend gravida, nulla nunc varius
+              lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui.
+              Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
+              Curabitur accumsan turpis pharetra augue tincidunt blandit.
+              Quisque condimentum maximus mi, sit amet commodo arcu rutrum id.
+              Proin pretium urna vel cursus venenatis. Suspendisse potenti.
+              Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at
+              dignissim dui. Ut et neque nisl.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <h1 class="title is-5">Mouse Events</h1>
+        <button class="button is-info" id="btn1">Toggle Content</button>
+
+        <div class="content is-medium mouse-event-content">
+          <p>
+            Skate ipsum dolor sit amet, hang up Japan air Steve Severin axle
+            Primo slide ollie north powerslide. Boneless pool front foot
+            impossible hardware crail grab soul skate. Pool indy grab nose grab
+            sponsored griptape method air. Flypaper mute-air rip grip face plant
+            pogo Tower Skate Park masonite. Ollie hole aerial concave fakie out
+            bearings durometer. Yeah Tim May pump blunt deck cab flip pressure
+            flip. Fakie out late gnar bucket finger flip Elissa Steamer
+            nosegrind crail slide. Full-cab body varial flypaper risers alley
+            oop axle. 1080 death box crail slide tic-tac Tower Skate Park coper
+            regular footed.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // $('h1').hide();
+      // $('.heading1').hide();
+      // $('.content-3').hide();
+
+      // $('#btn1').click(function () {
+      //   alert('Button 1 Clicked');
+      // });
+
+      $('#btn1').on('click', function(){
+        // $('.mouse-event-content').hide();
+        $('.mouse-event-content').toggle();
+      });
+    </script>
+  </body>
+</html>
